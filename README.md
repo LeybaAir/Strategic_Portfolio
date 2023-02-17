@@ -37,6 +37,6 @@ Application loads with no errors.
 
 ## Notes
 
-Live link: ()
+[Live link](https://leybaair.github.io/Strategic_Portfolio/)
 
-Image Screen Shot: ![On a desktop, image displays finished project]()
+Image Screen Shot: ![On a desktop, image displays finished project](./assets/liveshot.png)
