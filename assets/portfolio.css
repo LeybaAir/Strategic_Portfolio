@@ -104,7 +104,6 @@ color: #ffffff;
     place-items: auto;
     height: auto;
     color: white ;
-    box-shadow: #000000;
     margin-right: 50px;
 }
 
@@ -144,6 +143,15 @@ header h1 {
 h1 {
 color: white;
 font-size: 50px;
+}
+
+h3 {
+  color: #ffffff;  
+  
+}
+
+h4 {
+    color: #000000;
 }
 
 nav {
@@ -198,8 +206,8 @@ ul li {
     padding: 5rem;
     font-size: 10px;
   }
-  .h1 {
-    font-size: 10px;
+  h1 {
+    font-size: auto;
   }
   }
   
@@ -227,8 +235,8 @@ ul li {
         padding: 1rem;
         margin-left: 0px;
     }
-    .h1 {
-        font-size: x-small;
+    h1 {
+        font-size: small;
     }
     .box-parent-2 {
         margin: auto;
@@ -259,8 +267,8 @@ ul li {
             padding: 1rem;
             margin-left: 0px;
         }
-        .h1 {
-            font-size: x-small;
+        h1 {
+            font-size: small;
         }
         .box-parent-2 {
             margin: auto;
@@ -288,8 +296,8 @@ ul li {
             font-size: auto;
             margin-left: 0px;
         }
-        .h1 {
-            font-size: xx-small;
+        h1 {
+            font-size: smaller;
         }
         .box-parent-2 {
         margin: auto;
@@ -320,8 +328,8 @@ ul li {
                 font-size: auto;
                 margin-left: 0px;
             }
-            .h1 {
-                font-size: xx-small;
+            h1 {
+                font-size: smaller;
             }
             .box-parent {
             padding: auto;
@@ -349,8 +357,8 @@ ul li {
                     font-size: auto;
                     margin-left: 0px;
                 }
-                .h1 {
-                    font-size: xx-small;
+                h1 {
+                    font-size: x-small;
                 }
                 .box-parent {
                 padding: auto;
