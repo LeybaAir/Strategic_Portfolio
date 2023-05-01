@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/portfolio.css">
+    <link rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="card-head">Erica's Portfolio</h1>
+        <br>
+        <nav>
+            <br>
+            <ul>
+                <ul>
+                    <a href="#about-me">About Me</a>
+                </ul>
+                <ul>
+                    <a href="#work-examples">Work</a>
+                </ul>
+                <ul>
+                    <a href="#contact-me">Contact Me</a>
+                </ul>
+            </ul>
+            <br>
+            <h4 class="card-subhead">😒FUN-employment isn't so FUN</h4>
+        </nav>
+
+        <body style="text-align: center;">
+
+
+        </body>
+    </header>
+
+    <body>
+        <section class="hero"></section>
+        <section class="content">
+            <article id="about-me" class="about-me">
+                <div class="side-content">
+                    <h1>About Me</h1>
+                </div>
+                <div class="children">
+                    <img src="img/result.png" alt="Selfie of Erica" class="float-left" />
+                    <p id="children">
+                        An experienced professional with demonstrated results in Business Development, SaaS Sales and
+                        Customer Service- who enjoys educating leaders of the most comprehensive, data-driven readiness
+                        platform in the market.
+                    </p>
+                </div>
+            </article>
+            <article id="work-examples" class="work-examples">
+                <div class="side-content">
+                    <h1>Work</h1><h1>Examples</h1>
+                </div>
+                <div class="box-parent">
+                    <a href="https://github.com/LeybaAir/Challenge_1_Marketing" target="_blank">
+                        <h3>Marketing Project</h3>
+                        <img src="https://iheartcraftythings.com/wp-content/uploads/2021/06/6-49.jpg" alt="Marketing project">
+                    </a>
+                </div>
+                    <div class="box-parent" id="box-parent-2">
+                        <a href="https://github.com/LeybaAir/Challenge_1_Marketing" target="_blank">
+                            <h3>Project Two</h3>
+                            <img src="https://iheartcraftythings.com/wp-content/uploads/2021/06/6-49.jpg" id="image-2"
+                                alt="Project Two">
+                        </a>
+                    </div>
+            </article>
+
+            <article id="contact-me" class="contact-me">
+                <div class="side-content">
+                    <h1>Contact</h1>
+                    <h1>Me</h1>
+                </div>
+                <div class="information">
+                    <ul>
+                        <li><a class="contact" href="#559-999-6970">☎️ 559-999-6970</a></li>
+
+                        <li><a class="contact" href="mailto: leyba.air@gmail.com">📬 Send Email</a></li>
+
+                        <li><a class="contact" href="https://github.com/LeybaAir">🐱 GitHub</a></li>
+
+                        <li><a class="contact" href="https://www.linkedin.com/in/erica-leyba/">🔗 LinkedIn</a></li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <main>
+            <section>
+                <article>
+
+                    <form>
+                        <form action="submit-form.php" method="POST">
+                        <p>
+                            <label for="username">Name:</label>
+                            <input class="text-input" id="username" type="text" placeholder="First Last" />
+                        </p>
+                        <p>
+                            <label for="email">E-mail:</label>
+                            <input class="text-input" id="email" type="text" placeholder="me@example.com" />
+                        </p>
+                        <p class="flex-row">
+                            <label for="expertise">Are You Hiring?</label>
+                            <select id="expertise">
+                                <option selected>YES</option>
+                                <option>NO</option>
+                                <option>SOON</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="comment">Company & Position:</label>
+                            <textarea class="text-input" id="comment" placeholder="Let's Connect!"></textarea>
+                        </p>
+                        <p class="flex-row">
+                            <input class="checkbox" id="agreement" type="checkbox" />
+                            <label for="agreement">I agree to share my e-mail address with Erica</label>
+                        </p>
+                        <p>
+                            <button>Submit</button>
+                        </p>
+                    </form>
+                </article>
+            </section>
+        </main>
+    </body>
+<script src="./js/portfolio.js"></script>
+
+</body>
+
+</html>
