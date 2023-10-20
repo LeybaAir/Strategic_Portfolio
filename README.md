@@ -1,4 +1,4 @@
-# Strategic_Portfolio- Web application from scratch
+# Strategic_Portfolio-
 
 ## Description
 
